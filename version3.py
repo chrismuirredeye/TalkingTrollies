@@ -93,10 +93,10 @@ while True:
     elif x == marshmallows:
         
         if male == 'true':
-            os.system("espeak -ven-wi+m7 -k5 -s150 'hmmmm Marshmallows will you be making smores?'")
+            os.system("espeak -ven-wi+m7 -k5 -s150 'hummmm Marshmallows. will you be making smores?'")
             print 'male marshmallows'
         else:
-            os.system("espeak -ven-sc+f2 -p70 -k5 -s180 'hmmmm Marshmallows will you be making smores?'")
+            os.system("espeak -ven-sc+f2 -p70 -k5 -s180 'hummmm Marshmallows. will you be making smores?'")
             print 'female marshmallows'
 
     # MINT TEA
